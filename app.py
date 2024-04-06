@@ -5,7 +5,8 @@ import tensorflow  as tf
 import numpy as np
 
 
-loaded_model=tf.keras.models.load_model('r3.h5')
+
+loaded_model=tf.keras.models.load_model('models/r3.h5')
 
 
 class_names = ['glioma' , 'meningioma', 'notumor ', 'pituitary']
